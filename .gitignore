@@ -1,0 +1,13 @@
+Set-Content -Path .gitignore -Value @"
+target/
+*.class
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+*.hsperfdata_*
+.classpath
+.project
+.settings/
+.dependency-analysis_cache
+"@
